@@ -108,12 +108,12 @@ const Quiz = () => {
             {quizList?.map((choice, index) => {
             return (
                 <Choice
-                key={index}
-                choice={choice.choice}
-                isCorrect={choice.isCorrect}
-                answered={answered}
-                updateAnswer={updateAnswer}
-                id={index}
+                    key={index}
+                    choice={choice.choice}
+                    isCorrect={choice.isCorrect}
+                    answered={answered}
+                    updateAnswer={updateAnswer}
+                    id={index}
                 />
             );
             })}
